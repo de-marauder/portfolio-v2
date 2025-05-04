@@ -437,11 +437,11 @@ export default function Home() {
                 The tools and technologies I use to bring projects to life.
               </p>
             </div>
-            <Tabs defaultValue="frontend" className="w-full">
+            <Tabs defaultValue="devops" className="w-full">
               <TabsList className="grid w-full grid-cols-3">
-                <TabsTrigger value="frontend">Frontend</TabsTrigger>
-                <TabsTrigger value="backend">Backend</TabsTrigger>
                 <TabsTrigger value="devops">DevOps</TabsTrigger>
+                <TabsTrigger value="backend">Backend</TabsTrigger>
+                <TabsTrigger value="frontend">Frontend</TabsTrigger>
               </TabsList>
               <TabsContent value="frontend" className="mt-6">
                 <Card>
