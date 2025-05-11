@@ -335,7 +335,7 @@ export default function Home() {
                   <span className="sr-only">GitHub</span>
                 </Link>
                 <Link
-                  href="https://linkedin.com/obiajulu-ezike"
+                  href="https://linkedin.com/in/obiajulu-ezike"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors"
