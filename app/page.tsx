@@ -60,8 +60,8 @@ export default function Home() {
 
   const skills = {
     frontend: ["React", "Next.js", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS"],
-    backend: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST API", "GraphQL"],
-    devops: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform", "Linux"],
+    backend: ["Node.js", "Golang", "Express", "MongoDB", "PostgreSQL", "REST API", "GraphQL"],
+    devops: ["AWS", "Docker", "Kubernetes", "ECS", "Serverless", "CI/CD", "Terraform", "Linux"],
   }
 
   const projects = [
