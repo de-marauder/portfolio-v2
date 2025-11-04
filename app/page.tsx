@@ -20,7 +20,7 @@ import web3_auction_api from '../assets/images/web3-auction-api.png'
 import watch_tower from '../assets/images/watch-tower.webp'
 import go_express from '../assets/images/go_express.png'
 import gen_algo from '../assets/images/gen_algo.png'
-import titleImage from '../assets/images/obi-30.png'
+import titleImage from '../assets/images/obi-1.png'
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home")
@@ -117,9 +117,16 @@ export default function Home() {
 
   const experiences = [
     {
+      title: "Platform/Backend Engineer",
+      company: "Winble Bets",
+      period: "Sept 2025 - Present",
+      description: "Owning Iac and security, building/maintaining release pipelines and backend services.",
+      skills: ["AWS", "ECS", "Terraform", "CI/CD", "Lambda", "Docker"],
+    },
+    {
       title: "Senior Cloud Engineer",
       company: "Western Governors University",
-      period: "Feb 2024 - Present",
+      period: "Feb 2024 - Sept 2025",
       description: "Leading migration of legacy CI/CD pipelines and Kubernetes infrastructure.",
       skills: ["AWS", "Kubernetes", "Terraform", "CI/CD", "CodePipeline", "Octopus Deploy", "Docker"],
     },
@@ -370,8 +377,8 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="relative w-[280px] h-[280px] sm:w-[320px] sm:h-[320px]">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-purple-600 opacity-20 blur-2xl"></div>
-                <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-background shadow-xl">
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-purple-800 opacity-20 blur-2xl"></div>
+                <div className="relative w-full h-full rounded-full overflow-hidden shadow-lg">
                   <Image
                     src={titleImage}
                     alt="Obiajulu Ezike"
